@@ -75,3 +75,36 @@ body {
   padding: 15px 30px;
   border-radius: 4px;
 }
+
+.container-subtitulo {
+  font-size: 64px;
+  color: #c6c6c6;
+  text-transform: uppercase;
+  text-align: right;
+  display: grid;
+  align-items: center;
+  padding: 40px;
+}
+
+.container .container-vantagens {
+  background: #fff;
+  padding: 40px;
+}
+
+.container .container-vantagens .vantagens-item{
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px 20px;
+  padding: 20px;
+}
+
+.container .container-vantagens .vantagens-item p {
+  grid-column: 2;
+}
+
+.rodape {
+  width: 100%;
+  background: #fff;
+  padding: 40px;
+  text-align: center;
+}
