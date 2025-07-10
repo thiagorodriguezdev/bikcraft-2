@@ -1,19 +1,28 @@
-
-
-.menu {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
-  justify-content: center;
+header {
+  display: grid;
+  gap: 6rem;
+  justify-items: center;
 }
 
-.menu a {
+header .menu{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+header .menu a {
   background: #ffffff;
   padding: 1.5rem 3rem;
   border-radius: 0.4rem;
   color: #000;
   text-transform: uppercase;
-  font-size: 1.6rem;
+  border: 2px solid transparent;
+  transition: all .3s ease;
+}
+
+.menu a:hover{
+  border: 2px solid #900;
 }
 
 .container {
@@ -51,6 +60,10 @@
   font-size: 1.6rem;
 }
 
+.container-titulo .btn:hover{
+  background: #900;
+}
+
 .container-subtitulo {
   font-size: 6.4rem;
   color: #c6c6c6;
@@ -71,6 +84,16 @@
   grid-template-columns: auto 1fr;
   gap: 1rem 2rem;
   padding: 2rem;
+  border: 4px solid transparent;
+  transition: all .3s ease;
+}
+
+.container .container-vantagens .vantagens-item:hover{
+  border-left: 4px solid red;
+}
+
+.container .container-vantagens .vantagens-item:nth-child(odd){
+  background: #f7f7f7;
 }
 
 .container .container-vantagens .vantagens-item p {

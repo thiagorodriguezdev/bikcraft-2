@@ -8,21 +8,22 @@ html {
   font-size: 62.5%;
 }
 
-h1{
+h1 {
   font-size: 3.2rem;
 }
 
-h2{
+h2 {
   font-size: 2.4rem;
 }
 
-h3{
+h3 {
   font-size: 1.8rem;
 }
 
 a {
   text-decoration: none;
   font-size: 1.6rem;
+  display: block;
 }
 
 p {
@@ -38,8 +39,13 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background: #f7f7f7;
   display: grid;
+  gap: 60px;
   justify-items: center;
-  gap: 6rem;
   margin-top: 6rem;
+  gap: 6rem;
   padding: 0 1.5rem;
+}
+
+ul {
+  list-style: none;
 }
